@@ -1,11 +1,17 @@
 import 'package:fast_app_base/common/common.dart';
-import 'package:fast_app_base/screen/main/tab/favorite/f_favorite.dart';
+import 'package:fast_app_base/screen/main/tab/all/f_all.dart';
+import 'package:fast_app_base/screen/main/tab/benefit/f_benefit.dart';
 import 'package:fast_app_base/screen/main/tab/home/f_home.dart';
+import 'package:fast_app_base/screen/main/tab/pay/f_pay.dart';
+import 'package:fast_app_base/screen/main/tab/stock/stock.dart';
 import 'package:flutter/material.dart';
 
 enum TabItem {
-  home(Icons.home, '홈', HomeFragment()),
-  favorite(Icons.star, '즐겨찾기', FavoriteFragment(isShowBackButton: false));
+  home(Icons.home, 'Home', HomeFragment()),
+  benefit(Icons.help, 'Benefit', BenefitFragment()),
+  pay(Icons.payment, 'Pay', PayFragment()),
+  stock(Icons.candlestick_chart, 'Stock', StockFragment()),
+  all(Icons.star, 'All', AllFragment());
 
   final IconData activeIcon;
   final IconData inActiveIcon;

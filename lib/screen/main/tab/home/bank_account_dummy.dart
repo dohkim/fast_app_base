@@ -7,9 +7,9 @@ final bankaccountShinhan2 =
     BankAccount(bankShinhan, 700, accountTypeName: 'checking');
 final bankaccountkakao1 =
     BankAccount(bankKakao, 700, accountTypeName: 'saving');
-final bankaccountkakao2 = BankAccount(bankKakao, 900);
-final bankaccounttoss1 = BankAccount(bankToss, 900);
-final bankaccounttoss2 = BankAccount(bankToss, 1100);
+final bankaccountkakao2 = BankAccount(bankKakao,900);
+final bankaccounttoss1 = BankAccount(bankToss,900);
+final bankaccounttoss2 = BankAccount(bankToss,1100);
 
 final bankAccountts = [
   bankaccountShinhan1,
